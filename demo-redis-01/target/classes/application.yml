@@ -1,0 +1,15 @@
+spring:
+    redis:
+      host: 123.60.145.113
+      port: 6379
+      database: 0
+      password: hr0667
+      timeout: 30000
+      lettuce:
+        pool:
+          max-active: -1
+          max-wait: -1
+          max-idle: 8
+          min-idle: 0
+server:
+  port: 8080
